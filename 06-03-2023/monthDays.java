@@ -31,7 +31,7 @@ public class monthDays {
             }
         } else {
             int[] days = {31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-            return days[month + 1];
+            return days[month - 1];
         }
     }
 
